@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Khushnuma Parween | Java Full Stack Developer</title>
+
+    <link rel="stylesheet"
+          th:href="@{/css/style.css}">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav>
+
+    <div class="nav-container">
+
+        <a href="/" class="logo">
+            Khushnuma.
+        </a>
+
+        <div class="nav-links">
+
+            <a href="/">Home</a>
+
+            <a href="/about">About</a>
+
+            <a href="/skills">Skills</a>
+
+            <a href="/projects">Projects</a>
+
+            <a href="/experience">Experience</a>
+
+            <a href="/contact">Contact</a>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+<!-- HERO -->
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <p class="hero-label">
+            JAVA FULL STACK DEVELOPER
+        </p>
+
+        <h1>
+            Hi, I'm <span>Khushnuma Parween.</span>
+        </h1>
+
+        <h2>
+            I build backend systems and full-stack applications
+            using Java and Spring Boot.
+        </h2>
+
+        <p class="hero-description">
+
+            Software developer focused on building REST APIs,
+            scalable backend systems, real-time applications
+            and solving problems using Data Structures and Algorithms.
+
+        </p>
+
+
+        <div class="hero-buttons">
+
+            <a href="/projects" class="btn primary-btn">
+                View Projects
+            </a>
+
+            <a href="https://github.com/khushnumaparween"
+               target="_blank"
+               class="btn secondary-btn">
+
+                GitHub
+
+            </a>
+
+            <a href="/resume"
+               class="btn secondary-btn">
+
+                Resume
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- QUICK SKILLS -->
+
+<section class="quick-skills">
+
+    <div class="container">
+
+        <p>TECHNOLOGIES I WORK WITH</p>
+
+        <div class="skill-list">
+
+            <span>Java</span>
+
+            <span>Spring Boot</span>
+
+            <span>REST APIs</span>
+
+            <span>JPA</span>
+
+            <span>Hibernate</span>
+
+            <span>MySQL</span>
+
+            <span>Kafka</span>
+
+            <span>Docker</span>
+
+            <span>WebSocket</span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FEATURED PROJECTS -->
+
+<section class="section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <p class="section-label">
+                WHAT I'VE BUILT
+            </p>
+
+            <h2>
+                Featured Projects
+            </h2>
+
+        </div>
+
+
+        <div class="project-preview-grid">
+
+
+            <!-- PROJECT 1 -->
+
+            <div class="project-preview">
+
+                <span class="project-number">
+                    01
+                </span>
+
+                <h3>
+                    GitHub Profile Explorer
+                </h3>
+
+                <p>
+
+                    A Spring Boot application that allows users
+                    to search GitHub profiles and analyze repository
+                    insights such as languages, stars and trends.
+
+                </p>
+
+                <div class="project-tech">
+
+                    Java · Spring Boot · GitHub API · Thymeleaf
+
+                </div>
+
+                <a href="/projects">
+                    View Project →
+                </a>
+
+            </div>
+
+
+            <!-- PROJECT 2 -->
+
+            <div class="project-preview">
+
+                <span class="project-number">
+                    02
+                </span>
+
+                <h3>
+                    DebugMate
+                </h3>
+
+                <p>
+
+                    A Spring Boot application that helps developers
+                    understand common Spring Boot errors and their
+                    solutions.
+
+                </p>
+
+                <div class="project-tech">
+
+                    Java · Spring Boot · Thymeleaf · MySQL
+
+                </div>
+
+                <a href="/projects">
+                    View Project →
+                </a>
+
+            </div>
+
+
+            <!-- PROJECT 3 -->
+
+            <div class="project-preview">
+
+                <span class="project-number">
+                    03
+                </span>
+
+                <h3>
+                    ChatApp
+                </h3>
+
+                <p>
+
+                    A real-time social networking application with
+                    messaging, buddy requests, posts, comments
+                    and threaded replies.
+
+                </p>
+
+                <div class="project-tech">
+
+                    Java · Spring Boot · WebSocket · MySQL
+
+                </div>
+
+                <a href="/projects">
+                    View Project →
+                </a>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="view-all">
+
+            <a href="/projects">
+                View All Projects →
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT PREVIEW -->
+
+<section class="section about-preview">
+
+    <div class="container">
+
+        <div class="about-grid">
+
+            <div>
+
+                <p class="section-label">
+                    A LITTLE ABOUT ME
+                </p>
+
+                <h2>
+                    Building with Java,
+                    learning every day.
+                </h2>
+
+            </div>
+
+
+            <div>
+
+                <p>
+
+                    I am a Computer Applications graduate focused
+                    on backend development using Java and Spring Boot.
+
+                    I enjoy designing APIs, working with databases,
+                    building real-time applications and solving
+                    DSA problems.
+
+                </p>
+
+                <a href="/about">
+                    More About Me →
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CONTACT CTA -->
+
+<section class="contact-cta">
+
+    <div class="container">
+
+        <p class="section-label">
+            HAVE A PROJECT OR OPPORTUNITY?
+        </p>
+
+        <h2>
+            Let's connect.
+        </h2>
+
+        <a href="/contact"
+           class="btn primary-btn">
+
+            Get In Touch
+
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div class="container">
+
+        <p>
+            © 2026 Khushnuma Parween
+        </p>
+
+        <div class="footer-links">
+
+            <a href="https://github.com/khushnumaparween"
+               target="_blank">
+                GitHub
+            </a>
+
+            <a href="https://www.linkedin.com/"
+               target="_blank">
+                LinkedIn
+            </a>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+</body>
+
+</html>
+
