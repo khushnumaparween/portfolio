@@ -64,7 +64,7 @@ public class HomeController {
 
     @GetMapping("/resume")
     public String resume() {
-        return "redirect:/resume/KHUSHNUMA-PARWEEN-RESUME.pdf";
+        return "redirect:/resume/Khushnuma_Parween_Portfolio_resume.pdf";
     }
 
 }
